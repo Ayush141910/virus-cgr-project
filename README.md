@@ -30,8 +30,20 @@ Open the notebook in Google Colab and run all cells in order.
 
 Final results (accuracy, macro-F1, confusion matrix, Grad-CAM) will appear automatically.
 
-##  Data Source
-NCBI RefSeq Viral Genome Database.
+## 📦 Data Source
+
+Viral genome sequences were obtained from the **NCBI RefSeq Viral Genome Database**:
+
+https://www.ncbi.nlm.nih.gov/refseq/targetedloci/viral/
+
+The dataset consists of 664 complete reference genomes across multiple viral families.  
+The data is **not stored in the repository** due to file size, but is downloaded automatically using Biopython's Entrez utilities inside the notebook:
+
+```python
+from Bio import Entrez
+Entrez.email = "your_email@example.com"
+handle = Entrez.esearch(db="nuccore", term="Adenoviridae[Organism] AND complete genome")
+
 
 Genomes are downloaded automatically through the notebook (Biopython Entrez).
 
