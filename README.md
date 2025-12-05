@@ -38,7 +38,7 @@ Viral genome sequences were obtained from the **NCBI RefSeq Viral Genome Databas
 https://www.ncbi.nlm.nih.gov/refseq/targetedloci/viral/
 
 The dataset consists of **664 complete reference genomes** across multiple viral families.  
-The data is **not stored in the repository** due to file size, but is downloaded automatically using Biopython's Entrez utilities inside the notebook:
+The data is **not stored in the repository** due to size, and is downloaded automatically using Biopython's Entrez utilities inside the notebook:
 
 ```python
 from Bio import Entrez
