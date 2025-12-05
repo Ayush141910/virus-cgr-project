@@ -1,4 +1,4 @@
-# AI Usage Documentation (Draft)
+# AI Usage Documentation 
 
 This project used AI assistance (ChatGPT) for the following:
 - Clarifying the project scope and selecting an appropriate biological question.
