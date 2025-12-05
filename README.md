@@ -1,6 +1,6 @@
-# Virus CGR Project (Draft)
+# Virus CGR Project
 
-This repository contains the draft submission for the Bioinformatics Project:
+This repository contains the Final submission for the Bioinformatics Project:
 **Alignment-Free Virus Family Classification Using Chaos Game Representation (CGR).**
 
 ##  Repository Structure
