@@ -47,8 +47,9 @@ handle = Entrez.esearch(db="nuccore", term="Adenoviridae[Organism] AND complete 
 
 Genomes are downloaded automatically through the notebook (Biopython Entrez).
 
-## Status (Draft)
-- All core analyses completed  
-- Figures generated  
-- Draft report submitted  
-- Final report will include additional metrics, more Grad-CAM examples, and hyperparameter tuning
+## Status
+
+- All core analyses completed (data download, CGR image generation, XGBoost and ResNet18 models, Grad-CAM)
+- Figures generated (confusion matrix and Grad-CAM examples)
+- Results and interpretations summarized in the final project report
+
